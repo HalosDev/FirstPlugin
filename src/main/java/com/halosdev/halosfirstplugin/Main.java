@@ -1,5 +1,6 @@
 package com.halosdev.halosfirstplugin;
 
+import com.halosdev.halosfirstplugin.Commands.Heal;
 import com.halosdev.halosfirstplugin.Events.EggThrow;
 import com.halosdev.halosfirstplugin.Events.MoveEvent;
 import org.bukkit.Bukkit;
@@ -12,6 +13,7 @@ public final class Main extends JavaPlugin {
         System.out.println("Tests");
         Bukkit.getPluginManager().registerEvents(new MoveEvent(), this);
         Bukkit.getPluginManager().registerEvents(new EggThrow(), this);
+        getCommand("heal").setExecutor(new Heal());
 
     }
 
