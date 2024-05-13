@@ -10,7 +10,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println("Tests");
+        System.out.println("Halos First Plugin has enabled.");
         Bukkit.getPluginManager().registerEvents(new MoveEvent(), this);
         Bukkit.getPluginManager().registerEvents(new EggThrow(), this);
         getCommand("heal").setExecutor(new Heal());
