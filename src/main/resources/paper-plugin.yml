@@ -1,0 +1,4 @@
+name: HalosFirstPlugin
+version: '${version}'
+main: com.halosdev.halosfirstplugin.Main
+api-version: '1.20'
