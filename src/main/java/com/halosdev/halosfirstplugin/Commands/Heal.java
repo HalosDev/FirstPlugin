@@ -9,10 +9,10 @@ public class Heal implements CommandExecutor {
 
 
     @Override
-    public boolean onCommand(CommandSender commandSender, Command command, String label, String[] args) {
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (commandSender instanceof Player){
-            Player player = (Player) commandSender;
+        if (sender instanceof Player){
+            Player player = (Player) sender;
             player.sendMessage("Your Health Has been restored");
             player.setHealth(20);
         }
