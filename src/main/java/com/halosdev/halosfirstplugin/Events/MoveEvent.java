@@ -7,10 +7,10 @@ import org.bukkit.event.player.PlayerMoveEvent;
 public class MoveEvent implements Listener {
 
 
-    @EventHandler
-    public void onPlayerMove(PlayerMoveEvent e) {
+    //@EventHandler
+    //public void onPlayerMove(PlayerMoveEvent e) {
 
-        e.setCancelled(true);
-        e.getPlayer().sendMessage("Stop moving.");
+    //    e.setCancelled(true);
+    //    e.getPlayer().sendMessage("You Are walk");
     }
-}
+//}
