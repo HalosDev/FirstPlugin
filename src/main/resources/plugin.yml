@@ -7,3 +7,6 @@ commands:
   heal:
     description: Heal Command
     usage: /heal
+  hello:
+    description: Says Hello.
+    usage: /hello
