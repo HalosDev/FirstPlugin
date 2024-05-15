@@ -1,13 +1,11 @@
 package com.halosdev.halosfirstplugin;
 
-import com.halosdev.halosfirstplugin.Commands.Heal;
-import com.halosdev.halosfirstplugin.Commands.Hello;
-import com.halosdev.halosfirstplugin.Events.EggThrow;
-import com.halosdev.halosfirstplugin.Events.MoveEvent;
+import com.halosdev.halosfirstplugin.commands.Heal;
+import com.halosdev.halosfirstplugin.commands.Hello;
+import com.halosdev.halosfirstplugin.events.EggThrow;
+import com.halosdev.halosfirstplugin.events.MoveEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.Objects;
 
 public final class Main extends JavaPlugin {
 

@@ -1,4 +1,4 @@
-package com.halosdev.halosfirstplugin.Commands;
+package com.halosdev.halosfirstplugin.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

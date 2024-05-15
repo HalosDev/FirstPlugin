@@ -1,4 +1,4 @@
-package com.halosdev.halosfirstplugin.Events;
+package com.halosdev.halosfirstplugin.events;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
