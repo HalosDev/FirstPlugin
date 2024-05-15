@@ -1,8 +1,6 @@
-package com.halosdev.halosfirstplugin.Events;
+package com.halosdev.halosfirstplugin.events;
 
-import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerMoveEvent;
 
 public class MoveEvent implements Listener {
 
@@ -12,5 +10,5 @@ public class MoveEvent implements Listener {
 
     //    e.setCancelled(true);
     //    e.getPlayer().sendMessage("You Are walk");
-    }
-//}
+    //}
+}
