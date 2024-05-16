@@ -1,9 +1,6 @@
 package com.halosdev.halosfirstplugin;
 
-import com.halosdev.halosfirstplugin.commands.ConfigCommand;
-import com.halosdev.halosfirstplugin.commands.ConsoleCommand;
-import com.halosdev.halosfirstplugin.commands.Heal;
-import com.halosdev.halosfirstplugin.commands.Hello;
+import com.halosdev.halosfirstplugin.commands.*;
 import com.halosdev.halosfirstplugin.events.EggThrow;
 import com.halosdev.halosfirstplugin.events.MoveEvent;
 import org.bukkit.Bukkit;
@@ -23,6 +20,7 @@ public final class Main extends JavaPlugin {
         getCommand("hello").setExecutor(new Hello());
         getCommand("console").setExecutor(new ConsoleCommand());
         getCommand("config").setExecutor(new ConfigCommand(this));
+        getCommand("word").setExecutor(new SetWord(this));
 
     }
 

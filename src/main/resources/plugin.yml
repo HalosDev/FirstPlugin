@@ -12,3 +12,5 @@ commands:
     description: A console Command.
   config:
     description: Config Command.
+  word:
+    description: Set a word value in the config
