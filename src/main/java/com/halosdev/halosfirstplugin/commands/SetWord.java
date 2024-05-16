@@ -28,7 +28,7 @@ public class SetWord implements CommandExecutor {
         list.add("New value!");
         main.getConfig().set("String-list", list);
         main.saveConfig();
-
+        player.sendMessage("Saved the new values into config.");
 
 
         return false;
