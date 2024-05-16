@@ -28,6 +28,9 @@ public class ConfigCommand implements CommandExecutor {
             if (main.getConfig().getBoolean("Boolean")) {
                 player.sendMessage("This feature is enabled.");
             }
+            for (String string : main.getConfig().getStringList("String-list")) {
+                player.sendMessage(string);
+            }
 
         }
 
