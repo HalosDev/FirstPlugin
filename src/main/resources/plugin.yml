@@ -8,3 +8,5 @@ commands:
     description: Heal Command
   hello:
     description: Says Hello.
+  console:
+    description: A console Command.
