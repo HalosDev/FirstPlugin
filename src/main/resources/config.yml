@@ -1,0 +1,18 @@
+Word: 'Banana'
+# The String Value.
+
+Number: 15
+# Number Balue.
+
+Boolean: true
+# Boolean Value.
+
+String-list:
+  - 'String1'
+  - 'Value2'
+  - 'Value3'
+
+
+
+
+

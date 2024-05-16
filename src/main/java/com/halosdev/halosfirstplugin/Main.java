@@ -1,5 +1,6 @@
 package com.halosdev.halosfirstplugin;
 
+import com.halosdev.halosfirstplugin.commands.ConfigCommand;
 import com.halosdev.halosfirstplugin.commands.ConsoleCommand;
 import com.halosdev.halosfirstplugin.commands.Heal;
 import com.halosdev.halosfirstplugin.commands.Hello;
@@ -12,12 +13,16 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
         System.out.println("Halos First Plugin has enabled.");
         Bukkit.getPluginManager().registerEvents(new MoveEvent(), this);
         Bukkit.getPluginManager().registerEvents(new EggThrow(), this);
         getCommand("heal").setExecutor(new Heal());
         getCommand("hello").setExecutor(new Hello());
         getCommand("console").setExecutor(new ConsoleCommand());
+        getCommand("config").setExecutor(new ConfigCommand(this));
 
     }
 

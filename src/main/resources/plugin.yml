@@ -10,3 +10,5 @@ commands:
     description: Says Hello.
   console:
     description: A console Command.
+  config:
+    description: Config Command.
