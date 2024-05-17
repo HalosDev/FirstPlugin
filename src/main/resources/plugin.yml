@@ -16,3 +16,5 @@ commands:
     description: Set a word value in the config
   permission:
     description: Permission test command.
+  spawn:
+    description: Spawns a zombie.

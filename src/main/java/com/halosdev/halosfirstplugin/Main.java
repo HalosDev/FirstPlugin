@@ -18,6 +18,7 @@ public final class Main extends JavaPlugin {
         // Events register
         Bukkit.getPluginManager().registerEvents(new MoveEvent(), this);
         Bukkit.getPluginManager().registerEvents(new EggThrow(), this);
+        //Entity
         // Command Registers
         getCommand("heal").setExecutor(new Heal());
         getCommand("hello").setExecutor(new Hello());
@@ -25,6 +26,7 @@ public final class Main extends JavaPlugin {
         getCommand("config").setExecutor(new ConfigCommand(this));
         getCommand("word").setExecutor(new SetWord(this));
         getCommand("permission").setExecutor(new Permission());
+        getCommand("spawn").setExecutor(new EntitySpawn());
 
     }
 
