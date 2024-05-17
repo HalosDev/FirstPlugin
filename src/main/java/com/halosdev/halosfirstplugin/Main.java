@@ -27,6 +27,7 @@ public final class Main extends JavaPlugin {
         getCommand("word").setExecutor(new SetWord(this));
         getCommand("permission").setExecutor(new Permission());
         getCommand("spawn").setExecutor(new EntitySpawn());
+        getCommand("overload").setExecutor(new EntityOverLoad());
 
     }
 

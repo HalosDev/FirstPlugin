@@ -18,3 +18,5 @@ commands:
     description: Permission test command.
   spawn:
     description: Spawns a zombie.
+  overload:
+    description: Overloads the entity pool with zombies.
