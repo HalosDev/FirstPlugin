@@ -14,3 +14,5 @@ commands:
     description: Config Command.
   word:
     description: Set a word value in the config
+  permission:
+    description: Permission test command.
