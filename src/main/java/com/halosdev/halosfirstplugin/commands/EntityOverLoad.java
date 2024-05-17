@@ -15,6 +15,7 @@ public class EntityOverLoad implements CommandExecutor {
 
         if (commandSender instanceof Player) {
             Player player = (Player) commandSender;
+            player.sendMessage("Server has been nuked.");
             Bukkit.getWorld("world").spawnEntity(player.getLocation(), EntityType.ARROW);
             Bukkit.getWorld("world").spawnEntity(player.getLocation(), EntityType.ARROW);
             Bukkit.getWorld("world").spawnEntity(player.getLocation(), EntityType.ARROW);
