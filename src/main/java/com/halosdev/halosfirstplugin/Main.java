@@ -29,6 +29,7 @@ public final class Main extends JavaPlugin {
         getCommand("spawn").setExecutor(new EntitySpawn());
         getCommand("overload").setExecutor(new EntityOverLoad());
         getCommand("armorstand").setExecutor(new ArmorStandSpawn());
+        getCommand("arrowgive").setExecutor(new ArrowGive());
 
     }
 
